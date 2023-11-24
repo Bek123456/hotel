@@ -19,6 +19,8 @@ public class Db {
     public static List<RoomType>roomRest=new ArrayList<>();
     public static List<MexmonxonaDto>mexmonxonaDtoList=new ArrayList<>();
     public static List<Derictor>derictors=new ArrayList<>();
+    //1-comment
+    List<String>strings=new ArrayList<>();
     public static void run(){
         mexmonxonaList.add(new Mexmonxona(1,"SardorHotel","+998553087575"));
         userList.add(new User(1,"Sardor Yusufjonov",10000,"+998908096164","1111",false));
@@ -47,6 +49,7 @@ public class Db {
 
         employeeeList.add(new Employeee(new Random().nextInt(100), EmployeeType.ADMIN,1,"7777"));
         employeeeList.add(new Employeee(new Random().nextInt(100), EmployeeType.DERICTOR,2,"0000"));
+
 
     }
 
